@@ -1,0 +1,9 @@
+<config>
+    <!-- cobre celular -->
+    <interface hosts="gNodeB*" names="cellular" address="10.x.x.x" netmask="255.0.0.0"/>
+    <interface hosts="car*" names="cellular" address="10.x.x.x" netmask="255.0.0.0"/>
+
+    <!-- cobre todas as outras interfaces -->
+    <interface hosts="gNodeB*" address="192.168.x.x" netmask="255.255.255.0"/>
+    <interface hosts="*" address="192.168.x.x" netmask="255.255.255.0"/>
+</config>

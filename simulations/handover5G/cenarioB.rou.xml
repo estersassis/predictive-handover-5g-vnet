@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Jun  9 20:03:18 2025 by Eclipse SUMO duarouter Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="cenarioB.net.xml"/>
+        <route-files value="cenarioB.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="cenarioB.rou.xml"/>
+        <alternatives-output value="cenarioB.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="60"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+<vType id="highway_car"
+       accel="2.6" decel="4.5" sigma="0.3"
+       length="5" minGap="2.0" maxSpeed="33.33"
+       guiShape="passenger"/>
+    <vehicle id="veh0" type="highway_car" depart="1.00" departLane="best" departSpeed="max">
+        <route edges="-858877187 858877187 -858776938"/>
+    </vehicle>
+    <vehicle id="veh1" type="highway_car" depart="5.00" departLane="best" departSpeed="max">
+        <route edges="-770544896 770544896 964428335 770544895 -281228030 964428336 82862011#0 82862011#1 82862011#1-AddedOffRampEdge 218611110 161706010#1-AddedOnRampEdge 161706010#1"/>
+    </vehicle>
+    <vehicle id="veh2" type="highway_car" depart="6.00" departLane="best" departSpeed="max">
+        <route edges="-770544894 770544893 770544896 964428335 770544895 -281228030 964428336 82862011#0 82862011#1 82862011#1-AddedOffRampEdge 218611110 161706010#1-AddedOnRampEdge 161706010#1 161706010#1-AddedOffRampEdge 218611115"/>
+    </vehicle>
+    <vehicle id="veh3" type="highway_car" depart="11.00" departLane="best" departSpeed="max">
+        <route edges="-964428538 964428538 281227991 770544897 770544894 -770544894"/>
+    </vehicle>
+    <vehicle id="veh4" type="highway_car" depart="14.00" departLane="best" departSpeed="max">
+        <route edges="-281227991 281227991 770544897 770544893 770544896 964428335 770544895 -281228030 964428336 82862011#0 82862011#1 82862011#1-AddedOffRampEdge"/>
+    </vehicle>
+    <vehicle id="veh5" type="highway_car" depart="27.00" departLane="best" departSpeed="max">
+        <route edges="-770544897 -281227991 -964428538 -964428537"/>
+    </vehicle>
+    <vehicle id="veh6" type="highway_car" depart="28.00" departLane="best" departSpeed="max">
+        <route edges="-770544897 -281227991"/>
+    </vehicle>
+    <vehicle id="veh7" type="highway_car" depart="40.00" departLane="best" departSpeed="max">
+        <route edges="218611115 -964428538 964428538 281227991 770544897 770544893 770544896 964428335 770544895 -281228030 964428336 82862011#0 82862011#1 82862011#1-AddedOffRampEdge 218611110 161706010#1-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="veh8" type="highway_car" depart="45.00" departLane="best" departSpeed="max">
+        <route edges="82862011#2 161705999#0 -161705999#0 161706010#0 161706010#1-AddedOnRampEdge 161706010#1 161706010#1-AddedOffRampEdge 218611115 -964428538"/>
+    </vehicle>
+</routes>
