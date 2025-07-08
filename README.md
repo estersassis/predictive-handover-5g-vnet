@@ -50,6 +50,7 @@ Full evaluation available in the `ml/` folder.
 
 Ester Sara Assis Silva  
 estersilva@dcc.ufmg.br
+
 Made with ❤️ at UFMG – Computer Science Department.
 
 ---
